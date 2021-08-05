@@ -1,4 +1,5 @@
 # Copyright (C) 2021  Abdulazeez Giwa <abdulazeez.giwa@lasu.edu.ng>
+#		       Azeez Fatai <azeez.fatai@lasu.edu.ng>
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -72,7 +73,7 @@ row.names(mat)
 row.names(mat) <- c("CTD-2026A21.1", "MSMB", "FBP2", "LINC00992", "NLRP4", "lnc-KY-2", "CDH16", "MUC16", "PDZK1IP1", "lnc-GJA10-4", "PRSS8", "LINC01088", "CPA6", "CTSE", "LIPI", "AGR2", "IGHVII-60-1", "CAMP", "SDR16C5", "TMPRSS2", "lnc-SAMSN1-2", "LMO3", "TMEM125", "LINC01747", "CCDC85A", "lnc-MEF2C-4", "TSPAN1", "ALOX15", "KCNQ1OT1", "VWCE", "ABCA9", "lnc-PABPN1L-1", "CFAP91", "SPTBN2", "KCNJ2", "WNT9A", "TBC1D27P", "CASP5", "LINC01415", "lnc-IRF2BP2-1", "PTBP1P", "BCL2L10", "TMEM132B", "ACOD1", "MYOCD", "SACS-AS1")
 
 # plot heatmap
-png(file = "../Heatmap.png", height = 2000, width = 2500, res=400) #height = 1500, width = 2000, 
+png(file = "../Heatmap.png", height = 2000, width = 2500, res=400) 
 pheatmap(mat = mat, 
          scale = "row", 
          annotation_col = df, 
@@ -80,49 +81,5 @@ pheatmap(mat = mat,
          show_colnames = T)
 
 dev.off()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
